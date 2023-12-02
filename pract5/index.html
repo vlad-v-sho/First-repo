@@ -103,3 +103,107 @@
 </ul>
 </body>
 </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Layout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Main Title</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="box">
+                    <h2>Section 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.</p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2>Section 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more rows and columns as needed -->
+
+    </div>
+</body>
+</html>
+Створіть CSS-файл (styles.css):
+css
+Copy code
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed for different screen sizes */
+
+@media (max-width: 992px) {
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+}
