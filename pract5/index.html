@@ -1,4 +1,79 @@
 <!DOCTYPE html>
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Responsive Layout</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- Content goes here -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-12 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Media Queries for Tablet */
+@media (min-width: 769px) and (max-width: 992px) {
+  .col-12 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .col-12 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Additional styling for your content */
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;}
+
+
+  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
