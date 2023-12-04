@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friends</title>
+    <style>
+        .gray{
+  background-color: gray;
+  color: #fb53e2;
+}
 
+        .white{
+background-color: #fff;
+color: black;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.bor{
+    border: 1px solid black;
+}
+
+
+
+td{
+    border: 1px solid black;
+    padding:  5px;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+
+.curs{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.table{
+    background: green;
+    font-weight: 700;
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="friends">Друзі Шовкопляса Владислава Васильовича</h1>
+    <a class="curs" href="index.html">Назад на головну</a>
+
+    <h2>Мої друзі</h2>
+    <table>
+        <tr>
+            <td class="table">Прізвище</h3></td>
+                <td class="table"><h3>Iм'я</h3></td>
+                <td class="table"><h3>Дата народження</h3></td>
+                <td class="table"><h3>Адреса проживання</h3></td>
+                <td class="table"><h3 class="right">Контактний телефон</h3></td>
+           
+        </tr>
+        <tr>
+            <tr class="white">
+            <td>Цап'юк </td>
+            <td>Максим</td>
+            <td>09.08.2006</td>
+            <td>С.Задубрівці</td>
+            <td class="right" >0674329061</td>
+        </tr>
+        <tr>
+            <tr class="gray">
+            <td>Плешкан</td>
+            <td>Олег</td>
+            <td>01.09.2006</td>
+            <td>м.Снятин</td>
+            <td class="right">0978903251</td>
+        </tr>
+        <tr>
+            <tr class="white">
+            <td>Якуб</td>
+            <td>Артем</td>
+            <td>27.03.2007</td>
+            <td>м.Снятин</td>
+            <td class="right">0685621342</td>
+        </tr>
+        <tr>
+            <tr class="gray">
+            <td>Захарук</td>
+            <td>Михайло</td>
+            <td> 19.09.2008</td>
+            <td>с.Задубрівці</td>
+            <td class="right">0972668926</td>
+        </tr>
+    </table>
+</body>
+</html>
+    
