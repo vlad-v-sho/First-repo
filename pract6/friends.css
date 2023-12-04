@@ -49,6 +49,19 @@ h2{
     background: green;
     font-weight: 700;
 }
+.desktop-table th {
+    font-size: 130%;
+}
+
+.desktop-table td {
+    font-size: 120%;
+}
+
+@media (max-width: 1024px) {
+    
+    .desktop-table th {
+        font-size: 100%;
+    }
 
     </style>
 </head>
