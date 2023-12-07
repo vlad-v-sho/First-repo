@@ -76,6 +76,40 @@
       font-weight: 700;
 
     }
+    /* Загальні стилі для блоків */
+.block {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Desktop стилі */
+@media (min-width: 769px) {
+  .block-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+/* Tablet стилі */
+@media (min-width: 481px) and (max-width: 768px) {
+  .block-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .block {
+    flex-basis: calc(50% - 10px); /* Розмір блоку - 50% ширини екрану, з врахуванням відступів між блоками */
+  }
+}
+
+/* Mobile стилі */
+@media (max-width: 480px) {
+  .block {
+    width: 100%; /* Блоки займають всю ширину екрану */
+  }
+}
     </style>
 
 </head>
