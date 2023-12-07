@@ -33,6 +33,34 @@
      h2{
       text-align: center;
      }
+     /* Загальні стилі для списків */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Desktop стилі */
+@media (min-width: 769px) {
+  .list-container {
+    display: flex;
+  }
+
+  .list {
+    flex: 1;
+  }
+}
+
+/* Tablet та mobile стилі */
+@media (max-width: 768px) {
+  .list-container {
+    display: block;
+  }
+
+  .list {
+    margin-bottom: 10px; /* Простір між списками на tablet та mobile */
+  }
+}
       </style>
     
 </head>
