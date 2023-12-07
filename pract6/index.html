@@ -60,6 +60,36 @@
         .link__now:link{
           font-size: 140%;
         }
+        /* Загальні стилі для посилань */
+a {
+  display: block;
+  margin-bottom: 10px; /* Простір між посиланнями */
+}
+
+/* Desktop стилі */
+@media (min-width: 769px) {
+  .links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* Tablet стилі */
+@media (min-width: 481px) and (max-width: 768px) {
+  .links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+/* Mobile стилі */
+@media (max-width: 480px) {
+  .links-container {
+    display: block;
+  }
+}
       </style>
       <html>
 </head>
