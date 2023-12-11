@@ -11,9 +11,12 @@
 </head>
 <body>
     <h1>Контрольна робота</h1>
-    <h2>ШОвкопляса Владислава Васильовича</h2>
+    <h2>Шoвкопляса Владислава Васильовича</h2>
     <h3>Варіант 2</h3>
+    <a>Текст</a>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, distinctio sed voluptatum qui, voluptates blanditiis aperiam aut quidem consequatur dolores officiis. Voluptatem praesentium a deserunt ipsam neque fugiat illo eum.</p>
+    <a>Список</a>
 
 
 </body>
+</html>
