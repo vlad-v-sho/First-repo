@@ -16,6 +16,18 @@
     <a>Текст</a>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, distinctio sed voluptatum qui, voluptates blanditiis aperiam aut quidem consequatur dolores officiis. Voluptatem praesentium a deserunt ipsam neque fugiat illo eum.</p>
     <a>Список</a>
+    <ul>
+        <li>Чай</li>
+        <li>Овочі:</li>
+    <ol>
+        <li>Капуста</li>
+        <li>Морква</li>
+        <li>Буряк</li>
+    </ol>
+        <li>Сир</li>
+        <li>Сметана</li>
+        <li>Кетчуп</li>
+    </ul>
 
 
 </body>
